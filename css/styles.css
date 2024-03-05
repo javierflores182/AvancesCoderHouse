@@ -1,0 +1,994 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: #1f1d21;
+}
+
+
+/* header */
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: rgb(18,23,26)
+}
+/* fin header */
+
+
+
+/* logo */
+#logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 188px;
+    height: 47px;
+}
+/* fin logo */
+
+
+/* nav */
+nav{
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    border-bottom: 1px solid "#bcdlcb";
+}
+/* fin nav */
+
+
+/* botones del nav */
+nav ul{
+    display: flex;
+    flex-wrap:wrap;
+    background: rgb(1,64,73);
+    width: 100%;
+    height: 45px;
+}
+
+nav ul li{
+    width: 120px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    /* border-right: 1px solid bcdlcb; */
+}
+/* botones del nav */
+
+
+
+/* slide */
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+/* fin slide */
+
+
+
+/* section INICIO*/
+section#inicio{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299;
+    background: white;
+}
+
+section#inicio ul{
+    display: grid;
+    height: 299px;
+    grid-template-columns: 333px 333px 333px ;
+}
+
+section#inicio ul li h1{
+    text-align: center;
+    margin: 23px 27px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+section#inicio ul li p{
+    margin: 23px 28px;
+    font-size: 16px;
+}
+
+section#inicio ul li img{
+    margin: -20px 29px ;
+    width: 273px;
+    height: 100px;
+    background: rgba(0,255,255,.5);
+}
+/* fin section INICIO*/
+
+
+
+
+/* section QUIENES SOMOS*/
+section#quienesSomos{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+}
+
+
+section#quienesSomos h1{
+    position: relative;
+    top: 15px;
+    left: 27px;
+    color: #1f1d21;
+    font-weight:100 ;
+}
+
+section#quienesSomos hr{
+    position: relative;
+    top: 20px;
+    width: 980px;
+    margin: auto;
+    border: 1px solid #c6c6c6c6;
+}
+
+section#quienesSomos .contenido{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+section#quienesSomos .contenido img{
+    width: 272px;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+section#quienesSomos .contenido p{
+    width: 950px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+/* fin section QUIENES SOMOS*/
+
+
+
+/* section SERVICIOS*/
+section#servicios{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+}
+
+section#servicios #cajaServicios{
+    position: relative;
+    width: 935;
+    height: 262px;
+    margin:auto;
+    top: 18px;
+    background: rgba(255, 0, 0, .5) ;
+    box-shadow: 0px 0px 30px #000; /* posicion en x, posicion en y y la intensidad */
+}
+
+section#servicios #cajaServicios ul#lista{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 151px;
+    height: 220px;
+    text-align: center;
+    /* background: blue; */
+}
+
+
+section#servicios #cajaServicios ul#lista li{
+    width: 151px;
+    height: 72px;
+    margin: 2px 0px;
+    border: solid;
+    cursor: pointer;
+    background: blue;
+}
+
+
+
+section#servicios #cajaServicios ul#visor{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 732;
+    height: 220px;
+    border: solid;
+    background: rgba(0, 0, 255, .5);
+}
+
+section#servicios #cajaServicios ul#visor li{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 732px;
+    height: 220px;
+
+}
+
+section#servicios #cajaServicios ul#visor li h1{
+    position: absolute;
+    z-index: 1; /* sirve para poner el texto encima de la imagen */
+    top: 20px;
+    left: 20px;
+    color: #4d545a;
+}
+
+
+section#servicios #cajaServicios ul#visor li p{
+    position: absolute;
+    z-index: 1; /* sirve para poner el texto encima de la imagen */
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    width: 97%;
+    line-height: 60px;
+    padding-left: 20px;
+
+}
+/* fin section SERVICIOS*/
+
+
+
+/* section SUCURSAL*/
+section#sucursal{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 299px;
+    background: white;
+}
+
+section#sucursal ul li{
+    float: left;
+    width: 500px;
+    height: 300px;
+    /* background: rgba(0,255,255,.5); */
+}
+
+section#sucursal ul li h1{
+    margin: 23px 27px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+section#sucursal ul li p{
+    margin: 23px 28px;
+    font-size: 16px;
+}
+
+
+
+section#sucursal ul li img{
+    margin: -20px 29px ;
+    width: 400px;
+    height: 140px;
+    background: rgba(0,255,255,.5);
+}
+
+section#sucursal ul li #gmap_canvas{
+    margin: -20px 29px ;
+    width: 400px;
+    height: 230px;
+    /* background: rgba(0,255,255,.5); */
+}
+/* fin section SUCURSAL*/
+
+
+/* section CONTACTO*/
+section#contacto{
+    position: relative;
+    margin: auto;
+    width: 1000;
+    height: 299;
+    background: white;
+}
+
+
+section#contacto form{
+    position: relative;
+    margin: auto;
+    top: 32px;
+    width: 910px;
+    height: 232px;
+    background: white;
+}
+
+
+section#contacto form input#nombre{
+    position: absolute;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+
+
+section#contacto form input#email{
+    position: absolute;
+    top:81px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+
+
+section#contacto form input#asunto{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0;
+}
+
+
+section#contacto form #mensaje{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 128px;
+    background: #dce9d7;
+    border: 0;
+}
+
+section#contacto form input#enviar{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 69px;
+    background: #1a1d20;
+    border: 0;
+    color: white;
+}
+/* fin section CONTACTO*/
+
+
+
+/* bottom */
+#bottom{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 190px;
+}
+
+#bottom ul{
+    height: 190px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-items:normal;
+}
+
+#bottom ul li{
+    background: rgba(0,0,255,.5);
+}
+
+#bottom ul li h1{
+    text-align: center;
+    margin: 13px 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+ }
+
+/* fin bottom */
+
+
+
+/* footer */
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    text-align: center;
+    color: white;
+    line-height:62px;
+    font-size: 15px;
+    background:black;
+}
+/* fin footer */
+
+
+
+
+
+/* AQUI INICIA LAS MEDIAS QUERYS */
+@media only screen and (max-width: 480px) {
+
+    /* header */
+    header{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 70px;
+    }
+    /* fin header */
+
+    /* barra nav*/
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: auto;
+        border-right: none;
+        margin-right: 10px;
+    }
+    /* FIN barra nav*/
+
+
+    /* slide */
+    #slide{
+         margin: auto;
+        width: 100%;
+        height: auto;
+        /* background: red; */
+    }
+    /* fin slide */
+
+
+    /* seccion de inicio*/
+    section#inicio {
+        width: 100%;
+        height: auto;
+    }
+
+    section#inicio ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-gap: 10px;
+    }
+
+    section#inicio ul li h1 {
+        margin: 20px;
+        font-size: 22px;
+    }
+
+    section#inicio ul li p {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    section#inicio ul li img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    /* seccion inicio: fin */
+
+
+
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        width: 100%;
+        height: auto;
+    }
+
+
+    section#quienesSomos h1{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos hr{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    section#quienesSomos .contenido img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido p{
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+        color: #414042;
+        text-align: justify;
+    }
+    /* fin section QUIENES SOMOS*/
+
+
+    /* seccion de bottom*/
+      #bottom {
+        width: 100%;
+        height: auto;
+    }
+
+    #bottom ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        justify-items:normal;
+    }
+
+    #bottom ul li {
+        background: rgba(0, 0, 255, .5);
+        text-align: center;
+        padding: 10px;
+    }
+
+    #bottom ul li h1 {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    /* FIN de bottom*/
+
+    /* footer */
+    footer{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        line-height:62px;
+        font-size: 15px;
+        background:black;
+    }
+    /* fin footer */
+}
+
+
+
+@media only screen and (min-width: 480px) {
+
+    /* header */
+    header{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 70px;
+    }
+    /* fin header */
+
+    /* barra nav*/
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: auto;
+        border-right: none;
+        margin-right: 10px;
+    }
+    /* FIN barra nav*/
+
+
+    /* slide */
+    #slide{
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    /* fin slide */
+
+
+    /* seccion de inicio*/
+    section#inicio {
+        width: 100%;
+        height: auto;
+    }
+
+    section#inicio ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-gap: 10px;
+    }
+
+    section#inicio ul li h1 {
+        margin: 20px;
+        font-size: 22px;
+    }
+
+    section#inicio ul li p {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    section#inicio ul li img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    /* seccion inicio: fin */
+
+
+
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        width: 100%;
+        height: auto;
+    }
+
+
+    section#quienesSomos h1{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos hr{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido{
+        /* width: 100%;
+        height: auto; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    section#quienesSomos .contenido img{
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido p{
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+        color: #414042;
+        text-align: justify;
+    }
+    /* fin section QUIENES SOMOS*/
+
+
+    /* seccion de bottom*/
+      #bottom {
+        width: 100%;
+        height: auto;
+    }
+
+    #bottom ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        justify-items:normal;
+    }
+
+    #bottom ul li {
+        background: rgba(0, 0, 255, .5);
+        text-align: center;
+        padding: 10px;
+    }
+
+    #bottom ul li h1 {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    /* FIN de bottom*/
+
+    /* footer */
+    footer{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        line-height:62px;
+        font-size: 15px;
+        background:black;
+    }
+    /* fin footer */
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* barra nav*/
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: auto;
+        border-right: none;
+        margin-right: 10px;
+    }
+
+
+
+    /* slide */
+    #slide{
+        margin: auto;
+        width: 100%;
+        height: 450px;
+    }
+    /* fin slide */
+
+
+    /* seccion de inicio*/
+    section#inicio {
+        width: 100%;
+        height: auto;
+        display: grid;
+    }
+
+    section#inicio ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 10px;
+    }
+
+    section#inicio ul li h1 {
+        margin: 20px;
+        font-size: 22px;
+    }
+
+    section#inicio ul li p {
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    section#inicio ul li img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    /* fin seccion inicio */
+
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        width: 100%;
+        height: auto;
+    }
+
+
+    section#quienesSomos h1{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos hr{
+        width: 100%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    section#quienesSomos .contenido img{
+        margin: 0;
+        width:50%;
+        height: auto;
+    }
+
+    section#quienesSomos .contenido p{
+        width: 50%;
+        text-align: justify;
+         margin: auto;
+        color: #414042;
+        text-align: justify;
+    }
+    /* fin section QUIENES SOMOS*/
+
+
+    /* seccion de bottom*/
+    #bottom {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        background: red;
+    }
+
+    #bottom ul {
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        justify-content: space-between;
+        justify-items:normal;
+    }
+
+    #bottom ul li {
+        text-align: center;
+        padding: 10px;
+        background: green;
+    }
+
+    #bottom ul li h1 {
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /* header */
+    header{
+        margin: auto;
+        width: 1000px;
+        height: 83px;
+        background: rgb(18,23,26)
+    }
+
+
+    /* barra nav */
+    nav{
+        /* margin: auto; */
+        width: 1000px;
+        height: 45px;
+    }
+
+    /* Estilos para los botones del nav */
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: auto;
+        border-right: none;
+        margin-right: 10px;
+    }
+    /* botones del nav */
+
+    /* slide */
+    #slide{
+        margin: auto;
+        width: 1000px;
+        height: 500px;
+    }
+    /* fin slide */
+
+    /* seccion de inicio */
+    section#inicio {
+        width: 1000px;
+        margin: auto;
+        height: 299px;
+        background: white;
+    }
+
+    section#inicio ul {
+        display: grid;
+        height: 299px;
+        grid-template-columns: 333px 333px 333px ;
+    }
+
+    section#inicio ul li h1 {
+        text-align: center;
+        margin: 23px 27px;
+        font-weight: 100;
+        font-size: 25px;
+    }
+
+    section#inicio ul li p {
+        margin: 23px 28px;
+        font-size: 16px;
+    }
+
+    section#inicio ul li img {
+        margin: -20px 29px;
+        width: 273px;
+        height: 100px;
+        background: rgba(0, 255, 255, .5);
+    }
+
+    /* bottom */
+    #bottom {
+        margin: auto;
+        width: 1000px;
+        height: 190px;
+        /* background: red; */
+    }
+
+    #bottom ul {
+        height: 190px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px;
+        justify-items:normal;
+    }
+
+    #bottom ul li{
+        background: rgba(0,0,255,.5);
+    }
+
+    #bottom ul li h1 {
+        text-align: center;
+        margin: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    /* fin seccion inicio */
+
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        margin: auto;
+        width: 1000px;
+        height: 299px;
+    }
+
+
+
+section#quienesSomos .contenido{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#quienesSomos .contenido img{
+    margin: 0;
+    width:300px;
+    height: auto;
+    margin: 20px;
+}
+
+section#quienesSomos .contenido p{
+    width: 600px;
+    margin: auto;
+    color: #414042;
+    text-align: justify;
+}
+
+
+    /* footer */
+    footer{
+        position: relative;
+        margin: auto;
+        width: 1000px;
+        height: 62px;
+        text-align: center;
+        color: white;
+        line-height:62px;
+        font-size: 15px;
+        background:black;
+    }
+    /* fin footer */
+
+}
+
+
+
