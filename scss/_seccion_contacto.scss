@@ -1,0 +1,32 @@
+/* section CONTACTO*/
+section#contacto{
+    position: relative;
+    margin: auto;
+    width: $widthSeccion;
+    height: $height;
+    background: $background;
+    #filaPrincipal{
+        margin: auto;
+        width: 100%;
+        #colImagen{
+            img{
+                margin: auto;
+                width: 100%;
+                height: auto;
+            }
+        }
+        #colForm{
+            position: relative;
+            margin: auto;
+            height: auto;
+            form{
+                position: relative;
+                margin: auto;
+                top: 32px;
+                height: auto;
+                background: $background;
+            }      
+        }
+    } 
+}
+/* fin section CONTACTO*/

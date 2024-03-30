@@ -1,0 +1,44 @@
+/* section INICIO*/
+section#inicio{
+    position: relative;
+    margin: auto;
+    width: $widthSeccion;
+    height: $height;
+    background: $background;
+    ul{
+        display: grid;
+        height: $height;
+        grid-template-columns: 333px 333px 333px ;
+        padding: 0;
+        li {
+            h1{
+            text-align: center;
+            margin: 23px 27px;
+            font-weight: 100;
+            font-size: 25px;
+            }
+            p{
+                margin: 23px 28px;
+                font-size: 16px;
+            }
+            img{
+                margin: -20px 29px ;
+                width: 273px;
+                height: 83px;
+            }
+        }
+    }
+}
+
+
+.acercar{
+    overflow: hidden;
+    img{
+        transition: all 0.1s;
+    }
+    &:hover img{
+        transform: scale(0.00000001);
+    }
+}
+
+/* fin section INICIO*/

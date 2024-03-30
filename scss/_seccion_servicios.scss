@@ -1,0 +1,32 @@
+/* section SERVICIOS*/
+section#servicios{
+    position: relative;
+    margin: auto;
+    width: $widthSeccion;
+    height: $height;
+    background: $background;
+    padding: 5px 5px;
+    .row{
+        margin: auto;
+        padding: auto;
+        display: flex;
+        align-content: space-between;
+        justify-content: center;
+        gap:10px;
+        .col{
+            padding: 0;
+        }
+    }
+}
+
+.acercar{
+    overflow: hidden;
+    img{
+        transition: all 2s;
+    }
+    &:hover img{
+        transform: scale(1.5);
+    }
+}
+
+/* fin section SERVICIOS*/

@@ -1,0 +1,46 @@
+/* section SUCURSAL*/
+section#sucursal{
+    position: relative;
+    margin: auto;
+    width: $widthSeccion;
+    height: $height;
+    background: $background;
+    h1{
+        position: relative;
+        top: 15px;
+        left: 27px;
+        color: #1f1d21;
+        font-weight:100 ;
+    }
+    hr{
+        position: relative;
+        top: 20px;
+        width: 980px;
+        margin: auto;
+        border: 1px solid #c6c6c6c6;
+    }
+    .contenido{
+        display: flex;
+        align-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        img{
+            width: 272px;
+            margin: 20px;
+            margin-bottom: 20px;
+        }
+        ul{
+            li{
+                text-align: left;
+                font-size: 15px;
+                list-style-image: url($listasImagen);
+            }
+        }
+        iframe{
+            width: 272px;
+            margin: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+/* fin section SUCURSAL*/

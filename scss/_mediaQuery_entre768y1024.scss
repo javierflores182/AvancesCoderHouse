@@ -1,0 +1,230 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* barra nav*/
+    nav {
+        width: 100%;
+        height: auto;
+        div{
+            div{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            color: $background;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    /* slide */
+    #slide{
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    /* fin slide */
+
+
+    /* seccion de inicio*/
+    section#inicio {
+        width: 100%;
+        height: auto;
+        display: grid;
+        ul {
+            height: auto;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 10px;
+            li{
+                h1 {
+                    margin: 20px;
+                    font-size: 22px;
+                }
+                p {
+                    margin: 20px;
+                    font-size: 14px;
+                }
+                img {
+                    margin: 0;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+    /* fin seccion inicio */
+
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        width: 100%;
+        height: auto;
+        h1{
+            width: 100%;
+            height: auto;
+        }
+        hr{
+            width: 100%;
+            height: auto;
+        }
+        .contenido{
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+                margin: 0;
+                width:50%;
+                height: auto;
+            }
+            p{
+                width: 50%;
+                text-align: justify;
+                 margin: auto;
+                color: #414042;
+                text-align: justify;
+            }
+        }
+    }
+    /* fin section QUIENES SOMOS*/
+
+
+    /* section SERVICIOS*/
+    section#servicios{
+        width: 100%;
+        height: auto;
+
+    }
+     /* fin section SERVICIOS*/
+
+
+     section#sucursal{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        h1{
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+    
+        hr{
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            border: 1px solid #c6c6c6c6;
+        }
+        .contenido{
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            justify-content: flex-start;
+            img{
+                width: 300px;
+                margin: 20px;
+                margin-bottom: 20px;
+            }
+            ul{
+                li{
+                    text-align: left;
+                    font-size: 15px;
+                    list-style-image: url($listasImagen);
+                }
+            }
+            iframe{
+                 width: 300px;
+                margin: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+     section#contacto{
+         margin: auto;
+         width: 100%;
+         height: auto;
+         background: $background;
+         #filaPrincipal{
+             margin: auto;
+             width: 100%;
+             #colImagen{
+                 width: 100%;
+                height: auto;
+                 img{
+                     margin: auto;
+                     width: 100%;
+                     height: auto;
+                 }
+             }
+             #colForm{
+                 margin: auto;
+                 width: 100%;
+                 height: 425px;
+                 form{
+                     margin: auto;
+                     width: 100%;
+                     height: auto;
+                     padding: 0;
+                 }      
+             }
+         }
+     }
+
+
+    /* seccion de bottom*/
+    #bottom {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        ul{
+            li {
+                width: 100%;
+                text-align: center;
+                h1 {
+                    margin: 10px;
+                    color: $background;
+                    font-size: 20px;
+                    font-weight: 100;
+                    color: aqua;
+                }
+                ol {
+                    width: 100%;
+                    height: auto;
+                    padding: 0;
+                    font-size: 18px;
+                    text-align: center;
+                    li{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                img{
+                    top: 20px;
+                    left: auto;
+                    width: 120px;
+                    height: 120PX;
+                }
+                ul{
+                    top: 20px;
+                    left: auto;
+                    width: 100%;
+                    li{
+                        width: auto;
+                        height: auto;
+                        border-radius: auto;
+                        margin: 5px;
+                     }
+                 }
+            }
+        }
+    }
+
+    #detalle{
+        height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        justify-content: space-between;
+        justify-items:normal;
+    }
+
+
+}

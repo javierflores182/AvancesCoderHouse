@@ -3,98 +3,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css" type="text/css" media="">
-    <title>Primera pre-entrega</title>
+    <title>Tercera pre-entrega</title>
 </head>
 <body>
     
     <!-- cabezote -->
     <header>
         <div id="logo">
-            <img src="../images/logotipo.png"  alt="logo de pagina de Javier Flores">
+            <img src="../images/Milogo2.png"  alt="logo de pagina de Javier Flores">
         </div>
     </header>
     <!-- fin cabezote -->
 
-    <!-- barra navegacion -->
-    <nav>
-        <ul>
-            <a href="../Index.html"><li>Inicio</li></a>
-            <a href="../pages/quienesSomos.html"><li>Quienes somos</li></a>
-            <a href="../pages/servicios.html"><li>Servicios</li></a>
-            <a href="../pages/sucursal.html"><li>Sucursales</li></a>
-            <a href="../pages/contacto.html"><li>Contactenos</li></a>
-        </ul>
-    </nav>
-    <!-- fin barra navegacion -->
+
+        <!-- barra navegacion -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/quienesSomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/sucursal.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contactenos</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- fin barra navegacion -->
 
 
 
-    <!-- slide -->
-    <div id="slide">
-        <ul>
-            <li><img src="../images/97f315f0-91fc-11ed-b6ee-13373ca83842.jpeg" alt="slide de pagina de Javier Flores" width="100%"></li>
-        </ul>
+
+
+     <!-- slide -->
+     <div id="slide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/slide1.png" class="d-block w-100 imagesSlide" alt="imagen de nuestras marcas" width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/slide2.png" class="d-block w-100" alt="Imagen de nuestros productos">
+            </div>
+            <div class="carousel-item">
+                <img src="..//images/slide3.png" class="d-block w-100" alt="Imagen de nuestras pc's">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
     <!-- fin slide -->
 
-    <!-- botonera slide -->
-    <div id="botoneraSlide">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    <!-- fin botonera slide -->
 
-    <!-- section -->
-    <section id="Servicios">
-        <div id="cajaServicios">
-            <ul id="lista">
-                <li>Servicio1</li>
-                <li>Servicio2</li>
-                <li>Servicio3</li>
-            </ul>
+<!-- section -->
+<section id="Servicios">
+    <div class="container text-center" >
+        <div class="row">
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                    <div class="acercar">
+                        <img src="../images/servicios1.webp" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text"> Asesoramiento personalizado para maximizar el uso de la tecnología de acuerdo a tus necesidades y objetivos.</p>
+                    </div>
+                  </div>
+            </div> 
 
-            <ul id="visor">
-                <li>
-                    <h1>Servicios detalle</h1>
-                    <p>Lorem ipsum color sit amet, lorem ipsum color sit amet</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- fin section -->
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="acercar">
+                        <img src="../images/servicios2.jpg" class="card-img-top" alt="..." width="100%">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Expertos técnicos capacitados para resolver cualquier problema con tu equipo, garantizando un rendimiento óptimo.</p>
+                    </div>
+                  </div>
+            </div> 
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="acercar">
+                        <img src="../images/servicio3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Profesionales que se encargan de la puesta en marcha de tus dispositivos, asegurando su funcionamiento correcto.</p>
+                    </div>
+                  </div>
+            </div> 
+        </div> 
+    </div>   
+</section>
+<!-- fin section -->
+
 
     <!-- bottom -->
     <div id="bottom">
-        <ul>
+        <ul id="detalle">
             <li>
                 <h1>Noticias</h1>
                 <ol>
-
+                    <li><u>¡Descuentos en laptops ahora!</u></li>
+                    <li>¡Nuevas laptops gaming!</li>
+                    <li>¡Financiamiento disponible!</li>
+                    <li>¡Portátiles ultraligeros ya!</li>    
                 </ol>
             </li>
 
             <li>
                 <h1>Novedades</h1>
                 <ol>
-  
+                    <li>¡Nuevos modelos llegaron!</li>
+                    <li>¡Innovadoras laptops gamers!</li>
+                    <li>¡Explora nuestras novedades!</li>
+                    <li>¡Descubre últimas tecnológicas!</li>
                 </ol>
             </li>
 
             <li>
-                <h1>Galeria</h1>
+                <h1>Certificados</h1>
+                <img src="../images/certificado.png" alt="Procesos certificados">
 
             </li>
 
             <li>
                 <h1>Redes Sociales</h1>
                 <ul>
-
+                    <li><a href="http://www.facebook.com" target="_blank"></a></li>
+                    <li><a href="http://www.google.com" target="_blank"></a></li>
+                    <li><a href="http://www.pinterest.com" target="_blank"></a></li>
+                    <li><a href="http://www.twitter.com" target="_blank"></a></li>
                 </ul>
             </li>
 

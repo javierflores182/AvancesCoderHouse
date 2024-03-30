@@ -1,0 +1,39 @@
+/* nav */
+nav{
+    position: relative;
+    margin: auto;
+    width: $widthSeccion;;
+    height: 45px;
+    border-bottom: 1px solid "#bcdlcb";
+    background: url($navImagen);
+    button{
+        color: $background;
+    }
+    div{
+        div{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color: $background;
+                        &:hover{
+                            color: rgb(37,37,37);
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
+/* fin nav */
+
+
+
+/* slide */
+#slide{
+    position: relative;
+    margin: auto; 
+    width: $widthSeccion;;
+}
+/* fin slide */

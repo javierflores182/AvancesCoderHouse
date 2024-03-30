@@ -1,0 +1,314 @@
+@media only screen and (min-width: 1024px) {
+
+    /* header */
+    header{
+        position: relative;
+        margin: auto;
+        width: $widthSeccion;
+        height: 83px;
+        background: url($headerImagen);
+    }
+    /* fin header */
+    
+
+    /* logo */
+    #logo{
+        position: absolute;
+        top: 17px;
+        left: 15px;
+        width: 188px;
+        height: 47px;
+    }
+    /* fin logo */
+    
+    
+    /* nav */
+    nav{
+        width: 1000px;
+        height: 45px;
+        border-bottom: 1px solid "#bcdlcb";
+        background: url($navImagen);
+        div{
+            div{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            color: $background;
+                            &hover{
+                                color: aqua;
+                            }
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+    /* fin nav */
+    
+    
+    
+    /* slide */
+    #slide{
+        margin: auto; 
+        width: $widthSeccion;
+        height: auto;
+    }
+    /* fin slide */
+    
+    
+    
+    /* section INICIO*/
+    section#inicio{
+        margin: auto;
+        width: $widthSeccion;
+        height: $height;
+        ul{
+            height: $height;
+            grid-template-columns: 333px 333px 333px ;
+            padding: 0;
+            li{
+                h1{
+                    margin: 23px 27px;
+                    font-weight: 100;
+                    font-size: 25px;
+                }
+                p{
+                    margin: 23px 28px;
+                    font-size: 16px;
+                }
+                img{
+                    margin: -20px 29px ;
+                    width: 273px;
+                    height: 83px;
+                }
+            }
+        }
+    }
+    /* fin section INICIO*/
+    
+    
+    
+    
+    /* section QUIENES SOMOS*/
+    section#quienesSomos{
+        margin: auto;
+        width: $widthSeccion;
+        height: $height;
+        h1{
+            top: 15px;
+            left: 27px;
+            color: #1f1d21;
+            font-weight:100 ;
+        }
+        hr{
+            top: 20px;
+            width: 980px;
+            margin: auto;
+            border: 1px solid #c6c6c6c6;
+        }
+        .contenido{
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            flex-wrap: nowrap;
+            img{
+                width: 272px;
+                margin: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                width: 950px;
+                margin: auto;
+                color: #414042;
+                text-align: justify;
+            }
+        }
+    }
+    /* fin section QUIENES SOMOS*/
+    
+    
+    /* section SERVICIOS*/
+    section#servicios{
+        position: relative;
+        margin: auto;
+        width: $widthSeccion;
+        height: $height;
+        background: $background;
+        padding: 5px 5px;
+        .row{
+            margin: auto;
+            padding: auto;
+            display: flex;
+            align-content: space-between;
+            justify-content: center;
+            gap:10px;
+            .col{
+                padding: 0;
+            }
+        }
+    }
+    /* fin section SERVICIOS*/
+    
+    
+    /* section SUCURSAL*/
+    section#sucursal{
+        position: relative;
+        margin: auto;
+        width: $widthSeccion;
+        height: $height;
+        background: $background;
+        h1{
+            position: relative;
+            top: 15px;
+            left: 27px;
+            color: #1f1d21;
+            font-weight:100 ;
+        }
+        hr{
+            top: 20px;
+            width: 980px;
+            margin: auto;
+            border: 1px solid #c6c6c6c6;
+        }
+        .contenido{
+            align-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction:row;
+            justify-content: center;
+            img{
+                width: 250px;
+                margin: 40px;
+                margin-bottom: 40px;
+            }
+            ul{
+                li{
+                    text-align: left;
+                    font-size: 15px;
+                    list-style-image: url($listasImagen);
+                }
+            }
+            iframe{
+                width: 250px;
+                margin: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    
+    
+     section#contacto{
+         margin: auto;
+         width: $widthSeccion;
+         height: $height;
+         background: $background;
+         #filaPrincipal{
+             margin: auto;
+             width: 976px;
+             #colImagen{
+                width: 317.33px;
+                height: auto;
+                 img{
+                     margin: auto;
+                     width: 100%;
+                     height: auto;
+                 }
+             }
+             #colForm{
+                 margin: auto;
+                 width: 634.66px;
+                 height: 226px;
+                 form{
+                     margin: auto;
+                     width: 100%;
+                     height: 226px;
+                     padding: 0;
+                 }      
+             }
+         }
+     }
+    
+    
+    /* bottom */
+    #bottom{
+        margin: auto;
+        width: $widthSeccion;
+        height: 190px;
+        ul{
+            li{
+                width: 100%;
+                height: 190px;
+                h1{
+                    text-align: center;
+                    margin: 13px 18px;
+                    color: $background;
+                    font-size: 18px;
+                    font-weight: 100;
+                 }
+                 ol {
+                    top: 15px;
+                    left: 17px;
+                    width: 250px;
+                    height: 80px;
+                    padding: 0;
+                    text-align: left;
+                    li{
+                        width: 250px;
+                        height: 20px;
+                        font-size: 18px;
+                        text-align: left;
+                        list-style: inside;
+                        color: $background;
+                        list-style-image: url($listasImagen);
+                        font-size: 16px;
+                    }
+                }
+                img{
+                    top: 15px;
+                    left: 80px;
+                    width: 100px;
+                    height: 100px;
+                    border: 4px solid $background;
+                    background: rgb(163, 102, 102);
+                }
+                ul{
+                    top: 11px;
+                    left: 15px;
+                    width: 200px;
+                    height: 40px;
+                    padding: 0;
+                    li{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100%;
+                        a{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                         }
+                     }
+                 }
+            }
+        }
+    }
+    
+    #detalle{
+        grid-template-columns: 250px 250px 250px 250px;
+        align-content: stretch;
+        justify-content: center;
+        align-items: center;
+    }
+    /* fin bottom */
+    
+    
+    /* footer */
+    footer{
+        margin: auto;
+        width: $widthSeccion;
+        height: 62px;
+    }
+    /* fin footer */
+    }
+    
